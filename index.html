@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Scratch</title>
+    <link href="./boostrap.min.css" rel="stylesheet" />    
+    <script src="./all.min.css"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <h3>Movimentos</h3>
+    <button onclick="moverParaEsquerda()">Mover para esquerda</button>
+    <button onclick="moverParaDireita()">Mover para direita</button>
+    <button onclick="moverParaCima()">Mover para cima</button>
+    <button onclick="moverParaBaixo()">Mover para baixo</button>
+    <button onclick="girarHorario()">Girar em sentido horário</button>
+    <button onclick="girarAntiHorario()">Girar em sentido anti-horário</button>
+    <button onclick="deslizarParaDireita()">Deslizar</button>
+
+    <button onclick="">Aponte para direcao</button>
+    <!-- especificar a direcao, inserir um input de texto para digitar a direcao (plano cartesiano: "x" e "y" ) -->
+
+    <button onclick="">Ir para direcao</button>
+    <!-- especofocar a direcao, inserir um input de texto para digitar a direcao (plano cartesiano:"x" e "y") -->
+
+    <button onclick="">Ir para posicao aleatoria</button>
+
+    <button onclick="">Deslizar ate a posicao aleatoria</button>
+
+    <button onclick="">Seguir o mouse</button>
+
+    <button onclick="">Voltar ao inicio</button>
+
+    <button onclick="">"Dizer" Olá por "n" segundo(s)</button>
+    <!-- especificar a quantidade de segundos, inserir um input de texto para digitar a quantidade "n" -->
+
+    <button onclick="">Trocar o avatar</button>
+    <!-- escolher imagens de mais 3 avatares -->
+    <button onclick="">"Resetar" o avatar</button>
+    <!-- voltar ao avatar padrao -->
+
+    <button onclick="">Trocar cenario</button>
+    <!-- escolher imagens de maid 3 planos de fundo -->
+    <button onclick="">Resetar cenario</button>
+    <!-- voltar ao cenario padrao -->
+
+    <button onclick="">Diminuir o avatar</button>
+    <button onclick="">Aumentar o avatar</button>
+    <!-- deverao ser criadas mais variavei de ambiente (const) para definir o tamanho minimo e maximo do avatar (podendo ser digitado atraves de inputs de tamanho mibnimo e tamanho maximo) -->
+
+    <button onclick="">Esconder o avatar</button>
+    <button onclick="">Mostrar o avatar</button>
+
+    <button onclick="">Trocar o som</button>
+    <!-- inserir um select com as opcoes de sons pre-definidos -->
+    <button onclick="">Parar o som</button>
+    <button onclick="">Aumentar volume</button>
+    <button onclick="">Diminuir volume</button>
+    
+    <button onclick="">Modelo</button>
+    <br />
+    <br />
+    <label for="txtPixel">Quantidade de pixel(s):</label>
+    <input type="text" id="txtPixel" value="1"/>
+
+    <img src="moana.png" id="imgAvatar" />
+
+    <script src="./scratch.js"></script>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+
+    <script src="./popper.js"></script>
+</body>
+</html>
